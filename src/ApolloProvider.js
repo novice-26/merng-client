@@ -7,7 +7,7 @@ import {ApolloProvider} from "@apollo/react-hooks";
 import {setContext} from 'apollo-link-context'
 
 const httpLink = createHttpLink({
-    uri:"https://aqueous-reef-84163.herokuapp.com/"
+    uri:"URL_OF_GQL_SERVER"
 });
 const authLink=setContext((req,prevContext)=>{
     const token = localStorage.getItem('jwtToken');

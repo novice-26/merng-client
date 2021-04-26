@@ -47,5 +47,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"https://aqueous-reef-84163.herokuapp.com/"
+  "proxy": "URL_OF_GQL_SERVER"
 }
